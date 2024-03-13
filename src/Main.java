@@ -4,9 +4,9 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Input a word :");
-        String newword = sc.next();
-        boolean result0 = isPalindrome(newword);
-        System.out.println("Is '" + newword + "' a palindrome? " + result0);
+        String newWord = sc.next();
+        boolean result0 = isPalindrome(newWord);
+        System.out.println("Is '" + newWord + "' a palindrome? " + result0);
         String word = "kayak";
         boolean result = isPalindrome(word);
         System.out.println("Is '" + word + "' a palindrome? " + result);
